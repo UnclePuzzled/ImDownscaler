@@ -16,6 +16,9 @@ Finally, select the desired output format for your converted image from the drop
 
 Now, simply click "Convert," and your image will be processed and saved in the same directory as the original, with "_compressed" appended to its filename.
 
+[![Apps](https://img.shields.io/badge/Releases-green)](https://github.com/UnclePuzzled/ImDownscaler/releases/) 
+
+---
 
 **The available input image formats:**  
 
@@ -33,9 +36,6 @@ png  - jpeg - gif  - bmp
 tiff - webp - ico  - pcx  
 ppm  - pdf  
 
-
-**All releases:**  
-[![Apps](https://img.shields.io/badge/Release-green)](https://github.com/UnclePuzzled/ImDownscaler/releases/) 
 
 ---
 
