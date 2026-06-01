@@ -1,22 +1,22 @@
-# ImDownscaler
+# ImDownscaler v1.2
 
-This application allows you to work with image formats and quality.  
+*This application allows you to work with image formats and quality.*
+
+To start, use the `Browse` button to select your image. You can also select multiple files at once if you want to process a batch.
+
+Next, you have the option to enable `Downscale`.
+- If selected, enter the new desired width for the image in pixels (this should be smaller than the original image's width) in the `New image width` field.
+- If `Downscale` is not chosen, the image will be saved at its original resolution.
+
+For new images being saved in lossy formats (JPEG, JPG, and WebP), you can specify the quality of the converted image in the `New image quality` field (in percentage).
+
+Finally, select the desired output format for your converted image from the dropdown list. PNG is the default format.
+
+Click `Convert` to process your files. The outputs will be saved in a new `RESULT` folder inside the original image's directory, with "_compressed" appended to the filenames. 
+Batch processed images are saved there in the same way.
 
 
-
-After importing an image from your device, you can save it in various formats and adjust its resolution.
-
-To begin, enter the full path of your desired image in the "Input file path" field, or use the "Browse" button to select an image via your file explorer.
-
-Next, you have the option to enable "Downscale." If selected, enter the new desired width for the image in pixels (this should be smaller than the original image's width) in the "New image width" field. If "Downscale" is not chosen, the image will be saved at its original resolution.
-
-For new images being saved in lossy formats (JPEG, JPG, and WebP), you can specify the quality of the converted image in the "New image quality" field (in percentage).
-
-Finally, select the desired output format for your converted image from the dropdown list. PNG is set as the default format.
-
-Now, simply click "Convert," and your image will be processed and saved in the same directory as the original, with "_compressed" appended to its filename.
-
-[![Apps](https://img.shields.io/badge/Releases-green)](https://github.com/UnclePuzzled/ImDownscaler/releases/) 
+\> [![Apps](https://img.shields.io/badge/Releases-green)](https://github.com/UnclePuzzled/ImDownscaler/releases/) 
 
 ---
 
@@ -39,5 +39,5 @@ ppm  - pdf
 
 ---
 
-![v1.1 interface](img/ui_1.1.png)
+![v1.2 interface](img/ui_1.2.png)
 ---
